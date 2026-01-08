@@ -128,20 +128,25 @@ All exercise types are now stored in the `data/exercises.json` file. You can eas
 ### Installation
 
 1. **Clone and install**
-   ```bash
-   git clone https://github.com/yo-WASSUP/Good-GYM.git
-   cd Good-GYM
-   
-   # Create virtual environment
-   python -m venv venv
-   # Activate (Windows)
-   .\venv\Scripts\activate
-   # or (Mac/Linux)
-   source venv/bin/activate
-   
-   # Install dependencies
-   pip install -r requirements.txt
-   ```
+   # Clone the repository
+git clone https://github.com/tejastm75job-web/AI-FITNESS-TRAINER.git
+cd AI-FITNESS-TRAINER
+
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment (Windows)
+.\venv\Scripts\activate
+
+# Activate virtual environment (Mac/Linux)
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the application
+python run.py
+
 
 2. **Run the application**
    ```bash
