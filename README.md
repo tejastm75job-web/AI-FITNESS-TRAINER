@@ -1,27 +1,4 @@
-# Good-GYM: AI Fitness Assistant 💪
-
-<div align="center">
-
-<img src="assets/Logo.png" width="200px" alt="Good-GYM Logo">
-
-[![GitHub stars](https://img.shields.io/github/stars/yo-WASSUP/Good-GYM?style=social)](https://github.com/yo-WASSUP/Good-GYM/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/yo-WASSUP/Good-GYM?style=social)](https://github.com/yo-WASSUP/Good-GYM/network/members)
-[![GitHub license](https://img.shields.io/github/license/yo-WASSUP/Good-GYM)](https://github.com/yo-WASSUP/Good-GYM/blob/main/LICENSE)
-
-**AI Fitness Assistant Based on RTMPose**
-
-[English](README.md) | [middlearts](README_CN.md)
-
-[![LinkedIn introduction](https://img.shields.io/badge/LinkedIn-betweenShao-0077B5)](https://www.linkedin.com/posts/huihuang-tang_ai-computervision-opencv-activity-7325469166591770624-Bbyx?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD7qaoMBbw89mcxb0dNh_O4ezc8EFShoOtU)
-
-</div>
-
-## 🆕 Changelog
-
-- **2025-06-07**: Major update! Dropped YOLO models and all GPU support. Now uses only RTMPose for pose detection, and runs on CPU only. Simpler, more compatible, and easier to use.
-- **2025-06-12**：Optimize exercise_counters.py for counting accuracy, code structure optimization
-- **2025-11-14**: Reverted asynchronous pose detection due to accuracy issues, restored synchronous pose detection. Fixed crash when switching from statistics mode back to detection mode.
-- **2025-11-15**: New exercise database feature! All exercise configurations are now managed in `data/exercises.json` file. You can easily add, modify, or remove exercise types without modifying code.
+# AI FITNESS TRAINER 💪
 
 ## 🔮 Future Development
 
@@ -35,11 +12,6 @@
 - [ ] Mobile Application Support
 
 
----
-<img src="assets/demo-en.gif" width="800px" alt="playShow">
-
-<img src="assets/demo-status-en.gif" width="800px" alt="playShow">
-
 ## 🌟 Features
 
 - **Real-time Exercise Counting** - Automatically counts your repetitions
@@ -52,23 +24,8 @@
 - **Works with any webcam** - No special hardware required
 - **Runs locally** - Complete privacy
 
-## 📦 Direct Download
-- If you don't want to set up a Python environment, you can download our pre-packaged executable:
-
-  **Windows EXE package**: 
-
-  [Baidu Netdisk Link](https://pan.baidu.com/s/1xzZjwUmnXLaWatqPcSE1zw) code: 8866
-
-  [Google Drive](https://drive.google.com/file/d/1VKDecEDLdnyi59ZmHhOvUPwAxxkw9wlH/view?usp=drive_link)
-
-## 📝 Usage Guide
 
 ### Controls
-
-
-
-
-
 
 - Use the interface buttons to select different exercises
 - Real-time feedback shows your current form and repetition count
@@ -148,10 +105,7 @@ pip install -r requirements.txt
 python run.py
 
 
-2. **Run the application**
-   ```bash
-   python workout_qt_modular.py
-   ```
+
 
 ## 🖼️ Screenshots
 
@@ -164,10 +118,4 @@ python run.py
 <img src="assets/Screenshot-en-4.png" width="600px" alt="Screenshot 4">
 
 <img src="assets/Screenshot-en-5.png" width="600px" alt="Screenshot 5">
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-Thanks to RTMPose open source pose detection model: https://github.com/Tau-J/rtmlib
 
